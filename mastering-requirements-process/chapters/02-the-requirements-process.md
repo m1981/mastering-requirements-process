@@ -30,7 +30,7 @@ Let’s look briefly at each of the activities shown in Figure 2.1, which are co
 
 As we go through the process, we describe it as if you were working with a brand-new product—that is, developing something from scratch. We take this approach to avoid, for the moment, becoming entangled in the constraints that are part of all maintenance projects. Later, we will discuss requirements for those situations when the product already exists and changes to it are required.
 
-> “The likelihood of frost or ice forming is determined by the energy receipt and loss at the road surface. This energy flow is controlled by a number of environmental and meteorological factors (such as exposure, altitude, road construction, traffic, cloud cover, and wind speed). These factors cause significant variation in road surface temperature from time to time and from one location to another. Winter night-time road surface temperatures can vary by over 10°C across a road network in a county\.”
+> “The likelihood of frost or ice forming is determined by the energy receipt and loss at the road surface. This energy flow is controlled by a number of environmental and meteorological factors (such as exposure, altitude, road construction, traffic, cloud cover, and wind speed). These factors cause significant variation in road surface temperature from time to time and from one location to another. Winter night-time road surface temperatures can vary by over 10°C across a road network in a county.”
 
 > —Vaisala News
 
@@ -70,7 +70,7 @@ It is sensible project management practice at this stage to produce a preliminar
 The blastoff group members arrive at a consensus on whether the project is worthwhile and viable—that is, they make the “go/no go” decision. It might seem brutal to kill off an embryonic project, but we know from bitter experience that it is better to cancel a project at an early stage than to have it stagger on for months—or years—consuming valuable resources when it has little or no chance of success. The blastoff group carefully considers whether the product is viable, and whether its benefits outweigh its costs and risks.
 
 ![image8.jpeg](../img/image8.jpeg)
-Reading
+**Reading**
 
 DeMarco, Tom, and Tim Lister. Waltzing with Bears: Managing Risk on Software Projects. Dorset House, 2003.
 
@@ -104,7 +104,7 @@ Once they understand the essence of the work, the analysts get together with the
 Figure 2.3. The blastoff determines the scope of the work to be improved. The business use cases are derived from the scope. Each of the business use cases is studied by the requirements analysts and the relevant stakeholders to discover the desired way of working. When this is understood, the appropriate product can be determined (the PUC scenario) and requirements or user stories written from it.
 
 ![image8.jpeg](../img/image8.jpeg)
-Reading
+**Reading**
 
 Maiden, Neil, Suzanne Robertson, Sharon Manning, and John Greenwood. Integrating Creativity Workshops into Structured Requirements Processes. Proceedings of DIS 2004, Cambridge, Mass. ACM Press.
 
@@ -360,7 +360,7 @@ The process described in this book is made up of the things you have to do to su
 As you read this book, think about how you can use these components within the constraints of your own culture, your own environment, your own organizational structure, and your own chosen way of product development.
 
 ![image8.jpeg](../img/image8.jpeg)
-Reading
+**Reading**
 
 Brooks, Fred. No Silver Bullet: Essence and Accidents of Software Engineering, and “No Silver Bullet Refired.” The Mythical Man-Month: Essays on Software Engineering, twentieth anniversary edition. Addison-Wesley, 1995. This is possibly the most influential book on software development; it certainly is timeless.
 
