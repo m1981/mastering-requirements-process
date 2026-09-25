@@ -20,7 +20,7 @@ The Volere Requirements Process is shown in Figure 2.1. Each of the activities i
 
 Figure 2.1. This map of the Volere Requirements Process shows the activities and their deliverables. We have used a stylized data flow notation. Each activity (the bubbles) and its deliverables (named arrows or documents) are explained in the text. The dotted lines represent how this process is used with iterative projects.
 
-### The Requirements Process in Context
+### 2.1 The Requirements Process in Context
 
 We need to point out—indeed, we need to stress—that this process is not intended to be a waterfall approach. At various stages throughout this book, we will point out how you might modify the process if you are using some kind of iterative development.
 
@@ -34,7 +34,7 @@ As we go through the process, we describe it as if you were working with a brand
 
 > —Vaisala News
 
-### A Case Study
+### 2.2 A Case Study
 
 We will explain the Volere Requirements Process by taking you through a project that uses it.
 
@@ -42,7 +42,7 @@ The IceBreaker project is to develop a product that predicts when and where ice 
 
 Blastoff is also known as “project initiation,” “kickoff,” “charter,” “project launch,” and many other things. We use the term “blastoff” to describe what we are trying to achieve—getting the requirements project launched and flying.
 
-### Project Blastoff
+### 2.3 Project Blastoff
 
 Imagine launching a rocket. 10 – 9 – 8 – 7 – 6 – 5 – 4 – 3 – 2 – 1 – blastoff! If all it needed were the ability to count backward from 10, then even Andorra1 would have its own space program. The truth of the matter is that before we get to the final 10 seconds of a rocket launch, a lot of preparation has taken place. The rocket has been fueled, and the course plotted—in fact, everything that needs to be done if the rocket is to survive and complete a successful mission.
 
@@ -78,7 +78,7 @@ McConnell, Steve. Software Estimation: Demystifying the Black Art. Microsoft Pre
 
 Alternatively, if too many unknowns remain at this point, the blastoff group might decide to start the requirements investigation with the intention of reviewing the requirements after a short while and reassessing the value of the project.
 
-### Trawling for Requirements
+### 2.4 Trawling for Requirements
 
 Once the blastoff is completed, the business analysts start trawling the work to learn and understand its functionality—“What’s going on with this piece of the business, and what do they want it to do?” For convenience and consistency, they partition the work context diagram into business use cases.
 
@@ -114,7 +114,7 @@ Robertson, Suzanne, and James Robertson. Requirements-Led Project Management. Ad
 
 The IceBreaker product must not be a simplistic automation of the work as it is currently done; the best of our automated products are not mere imitations of an existing situation. To deliver a truly useful product, the analytical team must work with the stakeholders to innovate—that is, to develop a better way to do the work, and a product that supports this better way of working. They make use of innovation workshops where the team uses creative thinking techniques and innovative triggers to generate new and better ideas for the work and the eventual product.
 
-### Quick and Dirty Modeling
+### 2.5 Quick and Dirty Modeling
 
 Models can be used at any time in the Volere life cycle; in Figure 2.1, we show this activity as “Prototype the Work.” There are, of course, formal models such as you would find in UML or BPMN, but a lot of the time business analysts can make productive use of quick sketches and diagrams to model the work being investigated. One quick and dirty modeling technique we should mention here is using Post-it notes to model functionality; each note can be used to represent an activity, and the notes can be rapidly rearranged to show different ways the work is done or could be done. We find that stakeholders relate to this way of modeling their business processes, and are always willing to participate with hands-on manipulation of the Post-its to show what they think the work should be. We discuss this kind of modeling more fully in Chapter 5, Investigating the Work.
 
@@ -126,7 +126,7 @@ We can now start to refer to this type of model as a prototype—a quick and dir
 
 Figure 2.4. A quick and dirty prototype built on a whiteboard to provide a rapid visual explanation of how some of the requirements might be implemented, and to clarify misunderstood or missing requirements.
 
-### Scenarios
+### 2.6 Scenarios
 
 Scenarios are so useful that we have devoted the whole of Chapter 6 to them. Scenarios show the functionality of a business process by breaking it into a series of easily recognizable steps, written in English (or whatever language you use at work) so that they are accessible to all stakeholders. The IceBreaker analysts used scenarios to describe the business processes and present their understanding of the needed functionality. These scenarios were then revised as needed—different stakeholders took an interest in different parts of the scenario, and after a short time, the business analysts were able to have everyone understand and come to a consensus on what the work was to be.
 
@@ -135,7 +135,7 @@ Once they are agreed, the scenarios become the foundation for the requirements.
 ![image7.jpeg](../img/image7.jpeg)
 Refer to Chapter 6 for a discussion about using scenarios.
 
-### Writing the Requirements
+### 2.7 Writing the Requirements
 
 A major problem in system development is misunderstood requirements. To avoid any misunderstanding, the analysts must write their requirements in an unambiguous and testable manner, and at the same time ensure that the originating stakeholder understands and agrees with the written requirement before it is passed on to the developers. In other words, the analysts write the requirements so as to ensure that parties at either end of the development spectrum are able to have an identical understanding of what is needed.
 
@@ -165,7 +165,7 @@ Iterative development methods employ user stories as a way of conveying the requ
 
 The primary reason for wanting written requirements is not to have written requirements (although that is often necessary), but rather to write them. Writing the requirement, together with its associated rationale and fit criterion, clarifies it in the writer’s mind, and sets it down in an unambiguous and verifiable manner. To put that another way, if the business analyst cannot correctly write the requirement, he has not yet understood it.
 
-### Quality Gateway
+### 2.8 Quality Gateway
 
 Requirements are the foundation for all that is to follow in the product development cycle. Thus it stands to reason that if the right product is to be built, the requirements must be correct before they are handed over to the builders. To ensure correctness, the quality gateway tests the requirements (Figure 2.6). The IceBreaker team has set up a single point that every requirement must pass through before it can become a part of the specification. This gateway is manned by two people—the lead requirements analyst and a tester—and they are the only people authorized to pass requirements through the gateway. Working together, they check each requirement for completeness, relevance, testability, coherency, traceability, and several other qualities before they allow it to be passed to the developers.
 
@@ -178,7 +178,7 @@ Chapter 13 describes how the quality gateway tests the requirements.
 
 By ensuring that the only way for requirements to be made available for the developers is for those requirements to pass through the quality gateway, the project team is in control of the requirements, and not the other way around.
 
-### Reusing Requirements
+### 2.9 Reusing Requirements
 
 The requirements for any product you build are never completely unique. We suggest that before starting on any new requirements project, you go through the specifications written for previous projects and look for potentially reusable material. Sometimes you may find dozens of requirements that you can reuse without alteration. More often you will find requirements that, although they are not exactly what you want, are suitable as the basis for some of the requirements you will write in the new project.
 
@@ -191,7 +191,7 @@ The point about reusing requirements is that once a requirement has been success
 ![image7.jpeg](../img/image7.jpeg)
 See Chapter 15 for more on reusing requirements.
 
-### Reviewing the Requirements
+### 2.10 Reviewing the Requirements
 
 The quality gateway exists to keep bad requirements out of the specification—it does this one requirement at a time. Nevertheless, at the point when you think your requirements specification is complete (or as complete as you need it for the next activity), you should review it. This final review checks that there are no missing requirements, that all the requirements are consistent with one another, and that any conflicts between the requirements have been resolved. In short, the review confirms that the specification is really complete and suitable so that you can move on to the next stage of development.
 
@@ -202,7 +202,7 @@ This review also offers you an opportunity to reassess the costs and risks of th
 
 You also know at this stage which types of requirements are associated with the greatest risks. For example, the users might have asked for an interface that your organization has not built before. Or perhaps they want to use untried technology to build the product. Perhaps the developer might not have the people with the skills needed to build the product as specified? By reassessing the risks at this point, you give yourself a more realistic chance of building the desired product successfully.
 
-### Iterative and Incremental Processes
+### 2.11 Iterative and Incremental Processes
 
 One common misconception in the requirements world is that you have to gather all the requirements before moving on to the next step of design and construction. In other words, doing requirements means that you employ a traditional waterfall process. In some circumstances this is necessary, but not always. On the one hand, if you are outsourcing or if the requirements document forms the basis of a contract, then clearly you need to have a complete requirements specification. On the other hand, if the overall architecture is known, then construction and delivery can often begin before all the requirements are discovered. We show these two approaches in Figure 2.7, and suggest you consider which one works best for you when working on your own requirements projects. We also have a lot more to say on various approaches in Chapter 9, Strategies for Today’s Business Analyst.
 
@@ -212,7 +212,7 @@ Figure 2.7. Two (of many) variations on development life cycles. At the top of t
 
 On the IceBreaker project, the developers are ready to start building the product, so after the blastoff the key stakeholders select three (it could be any low number) of the highest-priority and greatest-value business use cases. The requirements analysts trawl and gather the requirements for only those business use cases, putting aside the rest of the work for now. Then, when the first tranche of requirements have successfully passed the quality gateway, the developers start their work. The intention is to implement a small number of use cases as early as possible to get the reaction of the stakeholders—if there are going to be any nasty surprises, the IceBreaker team wants to get them as early as possible. While the developers are building and delivering the first lot of business use cases, the analysts are working on the requirements for the next-highest-priority ones. Soon they have established a rhythm for delivery, with new use cases being implemented and delivered every few weeks.
 
-### Requirements Retrospective
+### 2.12 Requirements Retrospective
 
 You are reading this book about a requirements process, presumably with the intention of improving your own process. Retrospectives, sometimes known as lessons learned, are one of the most effective tools for discovering the good and bad of a process, and suggesting remedial action. Retrospectives for requirements projects consist of a series of interviews with stakeholders and group sessions with the developers. The intention is to canvas all the people involved in the project and ask these questions:
 
@@ -232,7 +232,7 @@ Your retrospective can be very informal: a coffee-time meeting with the project 
 
 The most notable feature of retrospectives is this: Companies that regularly conduct retrospectives consistently report significant improvements in their processes. In short, retrospectives are probably the cheapest investment you can make in improving your own process.
 
-### Evolution of Requirements
+### 2.13 Evolution of Requirements
 
 You start a project with little more than a vision—and sometimes a fairly blurred vision—of the desired future state of your owner’s work. (As we have done elsewhere in this book, we use the term “work” to refer to the area of the owner’s organization where improvements are to be made, usually by automating or re-automating part of it.)
 
@@ -250,7 +250,7 @@ Figure 2.8. The requirements evolve as development of the product progresses. Th
 
 We have said that the requirements evolve, but this process should not be thought of as an inexorable progression toward some known destination. As Earl Beede points out, every time you think of a solution, it causes some new problems that require you to backtrack and revisit some of your earlier work. When we are talking about a requirements process, keep in mind that the process, if it is to be useful, must allow you to move backward as well as forward. Naturally, you would like to spend most of your time moving forward, but don’t be too disappointed if you have to return to some things you thought you had put behind you.
 
-### The Template
+### 2.14 The Template
 
 It is easier to write requirements, and far more convenient, if you have a guide to writing them. Appendix A of this book provides The Volere Requirements Specification Template, which is a complete blueprint for describing your product’s functionality and capabilities. This template, which is a distillation of literally hundreds of requirements specifications, is in use by thousands of organizations all over the world.
 
@@ -333,7 +333,7 @@ Browse through the template in Appendix A before you go too much further in this
 
 Throughout this book, we will refer to requirements by their type—that is, one of the types as shown in the template’s table of contents.
 
-### The Snow Card
+### 2.15 The Snow Card
 
 Whereas the template is a guide to what to write about, the snow card is a guide to how to write it. Individual requirements have a structure—a set of attributes, where each attribute contributes something to your understanding of the requirement, and to the precision of the requirement, and thereby to the accuracy of the product’s development.
 
@@ -347,7 +347,7 @@ At first glance, the card might seem rather bureaucratic. (See Figure 2.9.) We a
 
 Figure 2.9. The requirements shell or snow card, consisting of a 5-inch by 8-inch card, printed with the requirement’s attributes, that is used for our initial requirements gathering. Each of the attributes contributes to the understanding and testability of the requirement. Although a copyright notice appears on the card, we have no objections to any reader making use of it for his or her requirements work, provided the source is acknowledged.
 
-### Your Own Requirements Process
+### 2.16 Your Own Requirements Process
 
 The itinerant peddler of quack potions, Doctor Dulcamara, sings the praises of his elixir—it is guaranteed to cure toothache, make you potent, eliminate wrinkles and give you smooth beautiful skin, destroy mice and bugs, and make the object of your affections fall in love with you. This rather fanciful libretto from Donizetti’s opera L’elisir d’amore points out something that, although very obvious, is often disregarded: There is no such thing as the universal cure.
 
@@ -384,7 +384,7 @@ To adapt this process, you should understand the deliverables it produces—the 
 
 We also point you to Chapter 9 of this book, entitled Strategies for Today’s Business Analyst. This chapter considers how you might approach your requirements projects. We suggest that before you become too involved in the mechanics of requirements discovery, you think about the strategy that is most suitable for you.
 
-### Formality Guide
+### 2.17 Formality Guide
 
 There is every reason to make your requirements discovery and communication as informal as possible. We say “as possible” because it is not so much what you would like as what your situation demands—often the degree of formality will be dictated by factors beyond your control. For example, you may be developing software using contracted outsourced development. In this case, there is a clear need for a complete written requirements specification. In other cases, the way you communicate your requirements can be informal to the point that a portion of the requirements are not written, or partially written, and communicated verbally.
 
@@ -408,7 +408,7 @@ Elephant—solid, strong, long life, and a long memory. An elephant project has 
 
 ![image18.jpeg](../img/image18.jpeg)
 
-### The Rest of This Book
+### 2.18 The Rest of This Book
 
 We have described—briefly—a process for discovering, communicating, and verifying requirements. The remainder of this book describes the various activities in this process, along with their deliverables, in some detail. Feel free to jump to any chapter that is of immediate concern—we wrote the chapters in more or less the order in which you would do each of the activities, but you don’t have to read them that way.
 

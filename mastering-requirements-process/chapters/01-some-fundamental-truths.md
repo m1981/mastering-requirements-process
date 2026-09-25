@@ -2,7 +2,7 @@
 
 *in which we consider the essential contribution of requirements*
 
-## Truth 1
+## 1.1 Truth 1
 
 ***Requirements are not really about requirements.***
 
@@ -16,7 +16,7 @@ Incidentally, when we say “business,” “business problem,” or “work” 
 
 Also incidentally, when we say “he” in this book—usually referring to the business analyst—we mean “he or she.” We find it too clumsy to keep saying “he or she” or “he/she.” Believe us, requirements work belongs equally to both genders.
 
-## Truth 2
+## 1.2 Truth 2
 
 ***If we must build software, then it must be optimally valuable for its owner.***
 
@@ -36,7 +36,7 @@ The role of the requirements discoverer—call him a “business analyst,” “
 
 This, then, is optimal value—understanding the owner’s problem well enough to deliver a solution that provides the best payback at the best price.
 
-## Truth 3
+## 1.3 Truth 3
 
 ***If your software does not have to satisfy a need, then you can build anything. However, if it is meant to satisfy a need, then you have to know what that need is to build the right software.***
 
@@ -56,7 +56,7 @@ This truth always emerges: You must come to the correct understanding of the req
 
 Sadly, the requirements are not always correctly understood. Authors Steve McConnell and Jerry Weinberg provide statistics showing that as many as 60 percent of errors originate from within the requirements activity. Software developers have the opportunity to (almost) eliminate these errors. Yet many choose—or their managers choose—to (almost) eliminate the requirements discovery and rush headlong into constructing the (inevitably) wrong product. As a result, they pay many times the price for their product than they would have if the requirements discovery had been done correctly in the first place. Poor quality is passed on in the development life cycle; it is as simple as that.
 
-## Truth 4
+## 1.4 Truth 4
 
 ***There is an important difference between building a piece of software and solving a business problem. The former does not necessarily accomplish the latter.***
 
@@ -70,7 +70,7 @@ More importantly, it is very difficult for an individual user to understand the 
 
 And at the risk of repeating ourselves, we cannot stress enough that software is there to solve a business problem. Clearly, then, any development effort must start with the problem, and not with a perceived solution.
 
-## Truth 5
+## 1.5 Truth 5
 
 ***The requirements do not have to be written, but they have to become known to the builders.***
 
@@ -90,7 +90,7 @@ Despite the efficacy of verbal requirements, we feel that it is not feasible to 
 
 Requirements are not meant to place an extra burden on your project, so nothing should be written unless there is a clear need for it. Nevertheless, when the need exists, then the effort involved in writing a requirement is paid back several times over by the precision of the requirement and the reduction in the maintenance effort that is yet to come.
 
-## Truth 6
+## 1.6 Truth 6
 
 ***Your customer won’t always give you the right answer. Sometimes it is impossible for the customer to know what is right, and sometimes he just doesn’t know what he needs.***
 
@@ -106,7 +106,7 @@ The business analyst has to perform a juggling act. In some cases he must record
 
 Figure 1.3. Sometimes, like Pinocchio, your customer does not tell you the whole truth.
 
-## Truth 7
+## 1.7 Truth 7
 
 ***Requirements do not come about by chance. There needs to be some kind of orderly process for developing them.***
 
@@ -116,7 +116,7 @@ These processes are not lockstep procedures where one mindlessly follows every i
 
 Most importantly, the people who are active in the process must be able to see why different tasks within the process are important, and which tasks carry the most significance for their project.
 
-## Truth 8
+## 1.8 Truth 8
 
 ***You can be as iterative as you want, but you still need to understand what the business needs.***
 
@@ -128,7 +128,7 @@ The real concern—and this applies to any kind of development technique—is to
 
 No matter how you develop your software, the need to understand the customer’s business problem, and what the product has to do to solve this problem (in other words, its requirements), remains.
 
-## Truth 9
+## 1.9 Truth 9
 
 ***There is no silver bullet. All our methods and tools will not compensate for poor thought and poor workmanship.***
 
@@ -140,7 +140,7 @@ The requirements activity is not exactly easy; it takes thought and perception o
 
 —Fred Brooks, *No Silver Bullet: Essence and Accidents of Software Engineering*
 
-## Truth 10
+## 1.10 Truth 10
 
 ***Requirements, if they are to be implemented successfully, must be measurable and testable.***
 
@@ -152,7 +152,7 @@ For example, if you have a requirement that your product “shall be attractive 
 
 It is also safe to say that if you cannot find a measurement for a requirement, then it is not a requirement, but merely an idle thought.
 
-## Truth 11
+## 1.11 Truth 11
 
 ***You, the business analyst, will change the way the user thinks about his problem, either now or later.***
 
@@ -160,7 +160,7 @@ When you come to understand the requirements, especially when they come from dif
 
 Once people have a better understanding of the real meaning of their requirements, they are likely to see ways of improving them. Part of your job is to help people, as early as possible, to understand and question their requirements so that they can help you to discover what they really need.
 
-## What Are These Requirements Anyway?
+## 1.12 What Are These Requirements Anyway?
 
 After all that truth, what are these requirements that we keep talking about? Simply put, a requirement is something the product must do to support its owner’s business, or a quality it must have to make it acceptable and attractive to the owner. A requirement exists either because the type of product demands certain functions and qualities, or because the client justifiably asks for that requirement to be part of the delivered product.
 
@@ -216,7 +216,7 @@ Whatever they are constraining, constraints can be seen as another type of requi
 
 Figure 1.4. The functionality of the end product is restricted by the constraints. The functionality is to the benefit of its user, but it is the nonfunctional requirements that “deliver” the functionality by making the product usable and acceptable to the users.
 
-## The Volere Requirements Process
+## 1.13 The Volere Requirements Process
 
 This book describes a process for successfully discovering, verifying, and documenting requirements. Each chapter covers an activity of the process, or some aspect of requirements gathering that is needed to complete the activity.
 
