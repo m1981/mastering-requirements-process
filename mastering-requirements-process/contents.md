@@ -4,411 +4,556 @@
 - [Foreword to the First Edition](front-matter/foreword.md)
 - [Acknowledgments](front-matter/acknowledgments.md)
 - [1 Some Fundamental Truths](chapters/01-some-fundamental-truths.md)
-  in which we consider the essential contribution of requirements
-- 1.1 Truth 1
-- 1.2 Truth 2
-- 1.3 Truth 3
-- 1.4 Truth 4
-- 1.5 Truth 5
-- 1.6 Truth 6
-- 1.7 Truth 7
-- 1.8 Truth 8
-- 1.9 Truth 9
-- 1.10 Truth 10
-- 1.11 Truth 11
-- 1.12 What Are These Requirements Anyway?
-- Functional Requirements
-- Non-functional Requirements
-- Constraints
-- 1.13 The Volere Requirements Process
+  *in which we consider the essential contribution of requirements*
+  - 1.1 Truth 1
+  - 1.2 Truth 2
+  - 1.3 Truth 3
+  - 1.4 Truth 4
+  - 1.5 Truth 5
+  - 1.6 Truth 6
+  - 1.7 Truth 7
+  - 1.8 Truth 8
+  - 1.9 Truth 9
+  - 1.10 Truth 10
+  - 1.11 Truth 11
+  - 1.12 What Are These Requirements Anyway?
+    - 1.12.1 Functional Requirements
+    - 1.12.2 Non-functional Requirements
+    - 1.12.3 Constraints
+  - 1.13 The Volere Requirements Process
 - [2 The Requirements Process](chapters/02-the-requirements-process.md)
-  in which we present a process for discovering requirements and discuss how you might use it
-- 2.1 The Requirements Process in Context
-- 2.2 A Case Study
-- 2.3 Project Blastoff
-- 2.4 Trawling for Requirements
-- 2.5 Quick and Dirty Modeling
-- 2.6 Scenarios
-- 2.7 Writing the Requirements
-- 2.8 Quality Gateway
-- 2.9 Reusing Requirements
-- 2.10 Reviewing the Requirements
-- 2.11 Iterative and Incremental Processes
-- 2.12 Requirements Retrospective
-- 2.13 Evolution of Requirements
-- 2.14 The Template
-- 2.15 The Snow Card
-- 2.16 Your Own Requirements Process
-- 2.17 Formality Guide
-- 2.18 The Rest of This Book
+  *in which we present a process for discovering requirements and discuss how you might use it*
+  - 2.1 The Requirements Process in Context
+  - 2.2 A Case Study
+  - 2.3 Project Blastoff
+  - 2.4 Trawling for Requirements
+  - 2.5 Quick and Dirty Modeling
+  - 2.6 Scenarios
+  - 2.7 Writing the Requirements
+  - 2.8 Quality Gateway
+  - 2.9 Reusing Requirements
+  - 2.10 Reviewing the Requirements
+  - 2.11 Iterative and Incremental Processes
+  - 2.12 Requirements Retrospective
+  - 2.13 Evolution of Requirements
+  - 2.14 The Template
+  - 2.15 The Snow Card
+  - 2.16 Your Own Requirements Process
+  - 2.17 Formality Guide
+  - 2.18 The Rest of This Book
 - 3 Scoping the Business Problem
-  in which we establish a definition of the business area to be changed, thereby ensuring that the project team has a clear vision of what their project is meant to achieve
-- 3.1 Project Blastoff
-- 3.2 Formality Guide
-- 3.3 Setting the Scope
-- Separate the Work from its Environment
-- 3.4 IceBreaker
-- First-Cut Work Context
-- 3.5 Scope, Stakeholders, and Goals
-- 3.6 Stakeholders
-- The Sponsor
-- The Customer
-- Users: Understand Them
-- 3.7 Other Stakeholders
-- Consultants
-- Management
-- Subject-Matter Experts
-- Core Team
-- Inspectors
-- Market Forces
-- Legal Experts
-- Negative Stakeholders
-- Industry Standard Setters
-- Public Opinion
-- Government
-- Special-Interest Groups
-- Technical Experts
-- Cultural Interests
-- Adjacent Systems
-- 3.8 Finding the Stakeholders
-- 3.9 Goals: What Do You Want to Achieve?
-- Purpose
-- Advantage
-- Measurement
-- 3.10 Constraints
-- Solution Constraints
-- Project Constraints
-- 3.11 Naming Conventions and Definitions
-- 3.12 How Much Is This Going to Cost?
-- 3.13 Risks
-- 3.14 To Go or Not to Go
-- 3.15 Blastoff Meetings
-- 3.16 Summary
+  *in which we establish a definition of the business area to be changed, thereby ensuring that the project team has a clear vision of what their project is meant to achieve*
+  - 3.1 Project Blastoff
+  - 3.2 Formality Guide
+  - 3.3 Setting the Scope
+    - 3.3.1 Separate the Work from its Environment
+  - 3.4 IceBreaker
+    - 3.4.1 First-Cut Work Context
+  - 3.5 Scope, Stakeholders, and Goals
+  - 3.6 Stakeholders
+    - 3.6.1 The Sponsor
+    - 3.6.2 The Customer
+    - 3.6.3 Users: Understand Them
+  - 3.7 Other Stakeholders
+    - 3.7.1 Consultants
+    - 3.7.2 Management
+    - 3.7.3 Subject-Matter Experts
+    - 3.7.4 Core Team
+    - 3.7.5 Inspectors
+    - 3.7.6 Market Forces
+    - 3.7.7 Legal Experts
+    - 3.7.8 Negative Stakeholders
+    - 3.7.9 Industry Standard Setters
+    - 3.7.10 Public Opinion
+    - 3.7.11 Government
+    - 3.7.12 Special-Interest Groups
+    - 3.7.13 Technical Experts
+    - 3.7.14 Cultural Interests
+    - 3.7.15 Adjacent Systems
+  - 3.8 Finding the Stakeholders
+  - 3.9 Goals: What Do You Want to Achieve?
+    - 3.9.1 Purpose
+    - 3.9.2 Advantage
+    - 3.9.3 Measurement
+  - 3.10 Constraints
+    - 3.10.1 Solution Constraints
+    - 3.10.2 Project Constraints
+  - 3.11 Naming Conventions and Definitions
+  - 3.12 How Much Is This Going to Cost?
+  - 3.13 Risks
+  - 3.14 To Go or Not to Go
+  - 3.15 Blastoff Meetings
+  - 3.16 Summary
 - 4 Business Use Cases
-  in which we discuss a fail-safe way of partitioning the work and so smooth the way for your requirements investigation
-- 4.1 Understanding the Work
-- 4.2 Formality Guide
-- 4.3 Use Cases and Their Scope
-- 4.4 The Scope of the Work
-- The Outside World
-- 4.5 Business Events
-- Time-Triggered Business Events
-- 4.6 Why Business Events and Business Use Cases Are a Good Idea
-- The “System” Cannot Be Assumed
-- Step Back
-- 4.7 Finding the Business Events
-- 4.8 Business Use Cases
-- 4.9 Business Use Cases and Product Use Cases
-- Actors
-- 4.10 Summary
+  *in which we discuss a fail-safe way of partitioning the work and so smooth the way for your requirements investigation*
+  - 4.1 Understanding the Work
+  - 4.2 Formality Guide
+  - 4.3 Use Cases and Their Scope
+  - 4.4 The Scope of the Work
+    - 4.4.1 The Outside World
+  - 4.5 Business Events
+    - 4.5.1 Time-Triggered Business Events
+  - 4.6 Why Business Events and Business Use Cases Are a Good Idea
+    - 4.6.1 The “System” Cannot Be Assumed
+    - 4.6.2 Step Back
+  - 4.7 Finding the Business Events
+  - 4.8 Business Use Cases
+  - 4.9 Business Use Cases and Product Use Cases
+    - 4.9.1 Actors
+  - 4.10 Summary
 - 5 Investigating the Work
-  in which we come to an understanding of what the business is doing, and start to think about what it might like to do
-- 5.1 Trawling the Business
-- 5.2 Formality Guide
-- 5.3 Trawl for Knowledge
-- 5.4 The Business Analyst
-- 5.5 Trawling and Business Use Cases
-- 5.6 The Brown Cow Model
-- 5.7 The Current Way of Doing Things (How-Now)
-- 5.8 Apprenticing
-- 5.9 Business Use Case Workshops
-- Outcome
-- Scenarios
-- Business Rules
-- 5.10 Interviewing the Stakeholders
-- Asking the Right Questions
-- Listening to the Answers
-- 5.11 Looking for Reusable Requirements
-- 5.12 Quick and Dirty Process Modeling
-- 5.13 Prototypes and Sketches
-- Low-Fidelity Prototypes
-- High-Fidelity Prototypes
-- 5.14 Mind Maps
-- 5.15 The Murder Book
-- 5.16 Video and Photographs
-- 5.17 Wikis, Blogs, Discussion Forums
-- 5.18 Document Archeology
-- 5.19 Family Therapy
-- 5.20 Choosing the Best Trawling Technique
-- 5.21 Finally . . .
+  *in which we come to an understanding of what the business is doing, and start to think about what it might like to do*
+  - 5.1 Trawling the Business
+  - 5.2 Formality Guide
+  - 5.3 Trawl for Knowledge
+  - 5.4 The Business Analyst
+  - 5.5 Trawling and Business Use Cases
+  - 5.6 The Brown Cow Model
+  - 5.7 The Current Way of Doing Things (How-Now)
+  - 5.8 Apprenticing
+  - 5.9 Business Use Case Workshops
+    - 5.9.1 Outcome
+    - 5.9.2 Scenarios
+    - 5.9.3 Business Rules
+  - 5.10 Interviewing the Stakeholders
+    - 5.10.1 Asking the Right Questions
+    - 5.10.2 Listening to the Answers
+  - 5.11 Looking for Reusable Requirements
+  - 5.12 Quick and Dirty Process Modeling
+  - 5.13 Prototypes and Sketches
+    - 5.13.1 Low-Fidelity Prototypes
+    - 5.13.2 High-Fidelity Prototypes
+  - 5.14 Mind Maps
+  - 5.15 The Murder Book
+  - 5.16 Video and Photographs
+  - 5.17 Wikis, Blogs, Discussion Forums
+  - 5.18 Document Archeology
+  - 5.19 Family Therapy
+  - 5.20 Choosing the Best Trawling Technique
+  - 5.21 Finally . . .
 - 6 Scenarios
-  in which we look at scenarios, and how the business analyst uses them to communicate with the stakeholders
-- 6.1 Formality Guide
-- 6.2 Scenarios
-- 6.3 The Essence of the Business
-- 6.4 Diagramming the Scenario
-- 6.5 Alternatives
-- 6.6 Exceptions
-- 6.7 What if? Scenarios
-- 6.8 Misuse Cases and Negative Scenarios
-- 6.9 Scenario Template
-- 6.10 Summary
+  *in which we look at scenarios, and how the business analyst uses them to communicate with the stakeholders*
+  - 6.1 Formality Guide
+  - 6.2 Scenarios
+  - 6.3 The Essence of the Business
+  - 6.4 Diagramming the Scenario
+  - 6.5 Alternatives
+  - 6.6 Exceptions
+  - 6.7 What if? Scenarios
+  - 6.8 Misuse Cases and Negative Scenarios
+  - 6.9 Scenario Template
+  - 6.10 Summary
 - 7 Understanding the Real Problem
-  in which we “think above the line” to find the true essence of the business, and so deliver the right product—one that solves the right problem
-- 7.1 Formality Guide
-- 7.2 The Brown Cow Model: Thinking Above the Line
-- The Essence
-- Abstraction
-- Swim Lanes Begone
-- 7.3 Solving the Right Problem
-- 7.4 Moving into the Future
-- 7.5 How to Be Innovative
-- 7.6 Systemic Thinking
-- 7.7 Value
-- 7.8 Personas
-- 7.9 Challenging Constraints
-- 7.10 Innovation Workshops
-- 7.11 Brainstorming
-- 7.12 Back to the Future
+  *in which we “think above the line” to find the true essence of the business, and so deliver the right product—one that solves the right problem*
+  - 7.1 Formality Guide
+  - 7.2 The Brown Cow Model: Thinking Above the Line
+    - 7.2.1 The Essence
+    - 7.2.2 Abstraction
+    - 7.2.3 Swim Lanes Begone
+  - 7.3 Solving the Right Problem
+  - 7.4 Moving into the Future
+  - 7.5 How to Be Innovative
+  - 7.6 Systemic Thinking
+  - 7.7 Value
+  - 7.8 Personas
+  - 7.9 Challenging Constraints
+  - 7.10 Innovation Workshops
+  - 7.11 Brainstorming
+  - 7.12 Back to the Future
 - 8 Starting the Solution
-  in which we bring the essence of the business into the technological world of the implementation
-- 8.1 Iterative Development
-- 8.2 Essential Business
-- 8.3 Determine the Extent of the Product
-- 8.4 Consider the Users
-- 8.5 Designing the User Experience
-- 8.6 Innovation
-- Convenience
-- Connections
-- Information
-- Feeling
-- 8.7 Sketching the Interface
-- 8.8 The Real Origin of the Business Event
-- 8.9 Adjacent Systems and External Technology
-- Active Adjacent Systems
-- Autonomous Adjacent Systems
-- Cooperative Adjacent Systems
-- 8.10 Cost, Benefit, and Risks
-- 8.11 Document Your Design Decisions
-- 8.12 Product Use Case Scenarios
-- 8.13 Putting It All Together
+  *in which we bring the essence of the business into the technological world of the implementation*
+  - 8.1 Iterative Development
+  - 8.2 Essential Business
+  - 8.3 Determine the Extent of the Product
+  - 8.4 Consider the Users
+  - 8.5 Designing the User Experience
+  - 8.6 Innovation
+    - 8.6.1 Convenience
+    - 8.6.2 Connections
+    - 8.6.3 Information
+    - 8.6.4 Feeling
+  - 8.7 Sketching the Interface
+  - 8.8 The Real Origin of the Business Event
+  - 8.9 Adjacent Systems and External Technology
+    - 8.9.1 Active Adjacent Systems
+    - 8.9.2 Autonomous Adjacent Systems
+    - 8.9.3 Cooperative Adjacent Systems
+  - 8.10 Cost, Benefit, and Risks
+  - 8.11 Document Your Design Decisions
+  - 8.12 Product Use Case Scenarios
+  - 8.13 Putting It All Together
 - 9 Strategies for Today’s Business Analyst
-  in which we consider strategies for the business analyst to guide requirements discovery in today’s changing environments
-- 9.1 Balancing Knowledge, Activities, and People
-- 9.2 Common Project Requirements Profiles
-- 9.3 How Much Knowledge Is Needed Before Each Breakout?
-- 9.4 External Strategy
-- Conception to Scoping
-- Scoping to Work Investigation
-- Work Investigation to Product Determination
-- Work Investigation to Atomic Requirements Definition
-- Work Investigation to Building
-- Product Determination to Atomic Requirements Definition
-- Product Determination to Construction
-- Atomic Requirements Definition to Building
-- 9.5 Iterative Strategy
-- Conception to Scoping
-- Scoping to Work Investigation
-- Work Investigation to Product Determination
-- Work Investigation to Requirements Definition
-- Product Determination to Requirements Definition
-- Requirements Definition to Construction
-- 9.6 Sequential Strategy
-- Conception to Scoping
-- Scoping to Work Investigation
-- Work Investigation to Product Determination
-- Product Determination to Requirements Definition
-- Requirements Definition to Building
-- 9.7 Your Own Strategy
-- 9.8 Sharpening Your Requirements Skills
-- No Longer a Stenographer
-- Limiting the Number of Requirements That Are Written
-- Reusing Requirements
-- Innovation and the Business Analyst
-- Looking for Business Rules
-- The Business Analyst as Ideas Broker
-- Systemic Thinking and the Business Analyst
-- The Business Analyst as Visualizer
-- 9.9 Summary
+  *in which we consider strategies for the business analyst to guide requirements discovery in today’s changing environments*
+  - 9.1 Balancing Knowledge, Activities, and People
+  - 9.2 Common Project Requirements Profiles
+  - 9.3 How Much Knowledge Is Needed Before Each Breakout?
+  - 9.4 External Strategy
+    - 9.4.1 Conception to Scoping
+    - 9.4.2 Scoping to Work Investigation
+    - 9.4.3 Work Investigation to Product Determination
+    - 9.4.4 Work Investigation to Atomic Requirements Definition
+    - 9.4.5 Work Investigation to Building
+    - 9.4.6 Product Determination to Atomic Requirements Definition
+    - 9.4.7 Product Determination to Construction
+    - 9.4.8 Atomic Requirements Definition to Building
+  - 9.5 Iterative Strategy
+    - 9.5.1 Conception to Scoping
+    - 9.5.2 Scoping to Work Investigation
+    - 9.5.3 Work Investigation to Product Determination
+    - 9.5.4 Work Investigation to Requirements Definition
+    - 9.5.5 Product Determination to Requirements Definition
+    - 9.5.6 Requirements Definition to Construction
+  - 9.6 Sequential Strategy
+    - 9.6.1 Conception to Scoping
+    - 9.6.2 Scoping to Work Investigation
+    - 9.6.3 Work Investigation to Product Determination
+    - 9.6.4 Product Determination to Requirements Definition
+    - 9.6.5 Requirements Definition to Building
+  - 9.7 Your Own Strategy
+  - 9.8 Sharpening Your Requirements Skills
+    - 9.8.1 No Longer a Stenographer
+    - 9.8.2 Limiting the Number of Requirements That Are Written
+    - 9.8.3 Reusing Requirements
+    - 9.8.4 Innovation and the Business Analyst
+    - 9.8.5 Looking for Business Rules
+    - 9.8.6 The Business Analyst as Ideas Broker
+    - 9.8.7 Systemic Thinking and the Business Analyst
+    - 9.8.8 The Business Analyst as Visualizer
+  - 9.9 Summary
 - 10 Functional Requirements
-  in which we look at those requirements that cause the product to do something
-- 10.1 Formality Guide
-- 10.2 Functional Requirements
-- 10.3 Uncovering the Functional Requirements
-- 10.4 Level of Detail or Granularity
-- 10.5 Description and Rationale
-- 10.6 Data, Your Secret Weapon
-- Data Models
-- Data Dictionary
-- 10.7 Exceptions and Alternatives
-- 10.8 Conditional Requirements
-- 10.9 Avoiding Ambiguity
-- 10.10 Technological Requirements
-- 10.11 Grouping Requirements
-- 10.12 Alternatives to Functional Requirements
-- Scenarios
-- User Stories
-- Business Process Models
-- 10.13 Requirements for COTS
-- 10.14 Summary
+  *in which we look at those requirements that cause the product to do something*
+  - 10.1 Formality Guide
+  - 10.2 Functional Requirements
+  - 10.3 Uncovering the Functional Requirements
+  - 10.4 Level of Detail or Granularity
+  - 10.5 Description and Rationale
+  - 10.6 Data, Your Secret Weapon
+    - 10.6.1 Data Models
+    - 10.6.2 Data Dictionary
+  - 10.7 Exceptions and Alternatives
+  - 10.8 Conditional Requirements
+  - 10.9 Avoiding Ambiguity
+  - 10.10 Technological Requirements
+  - 10.11 Grouping Requirements
+  - 10.12 Alternatives to Functional Requirements
+    - 10.12.1 Scenarios
+    - 10.12.2 User Stories
+    - 10.12.3 Business Process Models
+  - 10.13 Requirements for COTS
+  - 10.14 Summary
 - 11 Non-functional Requirements
-  in which we look at the requirements that specify how well your product does what it does
-- 11.1 An Introduction to Non-functional Requirements
-- 11.2 Formality Guide
-- 11.3 Functional Versus Non-functional Requirements
-- 11.4 Use Cases and Non-functional Requirements
-- 11.5 The Non-functional Requirements Types
-- 11.6 Look and Feel Requirements: Type 10
-- 11.7 Usability and Humanity Requirements: Type 11
-- 11.8 Performance Requirements: Type 12
-- 11.9 Operational and Environmental Requirements: Type 13
-- 11.10 Maintainability and Support Requirements: Type 14
-- 11.11 Security Requirements: Type 15
-- Access
-- Privacy
-- Integrity
-- Auditing
-- . . . And No More
-- 11.12 Cultural Requirements: Type 16
-- 11.13 Legal Requirements: Type 17
-- Sarbanes-Oxley Act
-- Other Legal Obligations
-- Standards
-- 11.14 Finding the Non-functional Requirements
-- Blogging the Requirements
-- Use Cases
-- The Template
-- Prototypes and Non-functional Requirements
-- The Client
-- 11.15 Don’t Write a Solution
-- 11.16 Summary
+  *in which we look at the requirements that specify how well your product does what it does*
+  - 11.1 An Introduction to Non-functional Requirements
+  - 11.2 Formality Guide
+  - 11.3 Functional Versus Non-functional Requirements
+  - 11.4 Use Cases and Non-functional Requirements
+  - 11.5 The Non-functional Requirements Types
+  - 11.6 Look and Feel Requirements: Type 10
+  - 11.7 Usability and Humanity Requirements: Type 11
+  - 11.8 Performance Requirements: Type 12
+  - 11.9 Operational and Environmental Requirements: Type 13
+  - 11.10 Maintainability and Support Requirements: Type 14
+  - 11.11 Security Requirements: Type 15
+    - 11.11.1 Access
+    - 11.11.2 Privacy
+    - 11.11.3 Integrity
+    - 11.11.4 Auditing
+    - 11.11.5 . . . And No More
+  - 11.12 Cultural Requirements: Type 16
+  - 11.13 Legal Requirements: Type 17
+    - 11.13.1 Sarbanes-Oxley Act
+    - 11.13.2 Other Legal Obligations
+    - 11.13.3 Standards
+  - 11.14 Finding the Non-functional Requirements
+    - 11.14.1 Blogging the Requirements
+    - 11.14.2 Use Cases
+    - 11.14.3 The Template
+    - 11.14.4 Prototypes and Non-functional Requirements
+    - 11.14.5 The Client
+  - 11.15 Don’t Write a Solution
+  - 11.16 Summary
 - 12 Fit Criteria and Rationale
-  in which we show how measuring requirements makes them unambiguous, understandable, communicable, and testable
-- 12.1 Formality Guide
-- 12.2 Why Does Fit Need a Criterion?
-- 12.3 The Rationale for the Rationale
-- 12.4 Deriving Fit Criteria
-- 12.5 Scale of Measurement
-- 12.6 Fit Criteria for Non-functional Requirements
-- Product Failure
-- Subjective Tests
-- Standards
-- Look and Feel Requirements
-- Usability and Humanity Requirements
-- Performance Requirements
-- Operational Requirements
-- Maintainability Requirements
-- Security Requirements
-- Cultural Requirements
-- Legal Requirements
-- 12.7 Fit Criteria for Functional Requirements
-- Test Cases
-- 12.8 Forms of Fit Criteria
-- Defining the Data
-- Graphic Fit Criteria
-- Decision Tables
-- Graphs
-- 12.9 Use Cases and Fit Criteria
-- 12.10 Fit Criterion for Project Purpose
-- 12.11 Fit Criteria for Solution Constraints
-- 12.12 Summary
+  *in which we show how measuring requirements makes them unambiguous, understandable, communicable, and testable*
+  - 12.1 Formality Guide
+  - 12.2 Why Does Fit Need a Criterion?
+  - 12.3 The Rationale for the Rationale
+  - 12.4 Deriving Fit Criteria
+  - 12.5 Scale of Measurement
+  - 12.6 Fit Criteria for Non-functional Requirements
+    - 12.6.1 Product Failure
+    - 12.6.2 Subjective Tests
+    - 12.6.3 Standards
+    - 12.6.4 Look and Feel Requirements
+    - 12.6.5 Usability and Humanity Requirements
+    - 12.6.6 Performance Requirements
+    - 12.6.7 Operational Requirements
+    - 12.6.8 Maintainability Requirements
+    - 12.6.9 Security Requirements
+    - 12.6.10 Cultural Requirements
+    - 12.6.11 Legal Requirements
+  - 12.7 Fit Criteria for Functional Requirements
+    - 12.7.1 Test Cases
+  - 12.8 Forms of Fit Criteria
+    - 12.8.1 Defining the Data
+    - 12.8.2 Graphic Fit Criteria
+    - 12.8.3 Decision Tables
+    - 12.8.4 Graphs
+  - 12.9 Use Cases and Fit Criteria
+  - 12.10 Fit Criterion for Project Purpose
+  - 12.11 Fit Criteria for Solution Constraints
+  - 12.12 Summary
 - 13 The Quality Gateway
-  in which we prevent unsuitable requirements from becoming part of the specification
-- 13.1 Formality Guide
-- 13.2 Requirements Quality
-- 13.3 Using the Quality Gateway
-- 13.4 Within Scope?
-- Relevancy
-- 13.5 Testing Completeness
-- Are There Any Missing Attributes?
-- Meaningful to Stakeholders?
-- 13.6 Testing the Fit Criterion
-- 13.7 Consistent Terminology
-- 13.8 Viable within Constraints?
-- 13.9 Requirement or Solution?
-- 13.10 Requirement Value
-- 13.11 Gold Plating
-- 13.12 Requirements Creep
-- 13.13 Implementing the Quality Gateway
-- Alternative Quality Gateways
-- 13.14 Summary
+  *in which we prevent unsuitable requirements from becoming part of the specification*
+  - 13.1 Formality Guide
+  - 13.2 Requirements Quality
+  - 13.3 Using the Quality Gateway
+  - 13.4 Within Scope?
+    - 13.4.1 Relevancy
+  - 13.5 Testing Completeness
+    - 13.5.1 Are There Any Missing Attributes?
+    - 13.5.2 Meaningful to Stakeholders?
+  - 13.6 Testing the Fit Criterion
+  - 13.7 Consistent Terminology
+  - 13.8 Viable within Constraints?
+  - 13.9 Requirement or Solution?
+  - 13.10 Requirement Value
+  - 13.11 Gold Plating
+  - 13.12 Requirements Creep
+  - 13.13 Implementing the Quality Gateway
+    - 13.13.1 Alternative Quality Gateways
+  - 13.14 Summary
 - 14 Requirements and Iterative Development
-  in which we look at how to discover and implement requirements in an iterative development environment
-- 14.1 The Need for Iterative Development
-- 14.2 An Iterative Requirements Process
-- The Work
-- Analyze Business Needs
-- Write User Stories
-- Develop Product
-- 14.3 Business Value Analysis and Prioritization
-- 14.4 How to Write a Good User Story
-- Questions to Ask
-- Formalizing Your User Stories
-- Fleshing out the Story
-- 14.5 Iterative Requirements Roles
-- Business Knowledge
-- Analytical and Communication Knowledge
-- Technical Knowledge
-- 14.6 Summary
+  *in which we look at how to discover and implement requirements in an iterative development environment*
+  - 14.1 The Need for Iterative Development
+  - 14.2 An Iterative Requirements Process
+    - 14.2.1 The Work
+    - 14.2.2 Analyze Business Needs
+    - 14.2.3 Write User Stories
+    - 14.2.4 Develop Product
+  - 14.3 Business Value Analysis and Prioritization
+  - 14.4 How to Write a Good User Story
+    - 14.4.1 Questions to Ask
+    - 14.4.2 Formalizing Your User Stories
+    - 14.4.3 Fleshing out the Story
+  - 14.5 Iterative Requirements Roles
+    - 14.5.1 Business Knowledge
+    - 14.5.2 Analytical and Communication Knowledge
+    - 14.5.3 Technical Knowledge
+  - 14.6 Summary
 - 15 Reusing Requirements
-  in which we look for requirements that have already been written and explore ways to make use of them
-- 15.1 What Is Reusing Requirements?
-- 15.2 Sources of Reusable Requirements
-- 15.3 Requirements Patterns
-- Christopher Alexander’s Patterns
-- 15.4 A Business Event Pattern
-- Context of Event Response
-- Processing for Event Response
-- Data for Event Response
-- 15.5 Forming Patterns by Abstracting
-- Patterns for Specific Domains
-- Patterns Across Domains
-- 15.6 Domain Analysis
-- 15.7 Summary
+  *in which we look for requirements that have already been written and explore ways to make use of them*
+  - 15.1 What Is Reusing Requirements?
+  - 15.2 Sources of Reusable Requirements
+  - 15.3 Requirements Patterns
+    - 15.3.1 Christopher Alexander’s Patterns
+  - 15.4 A Business Event Pattern
+    - 15.4.1 Context of Event Response
+    - 15.4.2 Processing for Event Response
+    - 15.4.3 Data for Event Response
+  - 15.5 Forming Patterns by Abstracting
+    - 15.5.1 Patterns for Specific Domains
+    - 15.5.2 Patterns Across Domains
+  - 15.6 Domain Analysis
+  - 15.7 Summary
 - 16 Communicating the Requirements
-  in which we turn the requirements into communicable form
-- 16.1 Formality Guide
-- 16.2 Turning Potential Requirements into Written Requirements
-- 16.3 Knowledge Versus Specification
-- 16.4 The Volere Requirements Specification Template
-- Template Table of Contents
-- Template Divisions
-- 16.5 Discovering Atomic Requirements
-- Snow Cards
-- 16.6 Attributes of Atomic Requirements
-- Requirement Number
-- Requirement Type
-- Event/BUC/PUC #
-- Description
-- Rationale
-- Originator
-- Fit Criterion
-- Customer Satisfaction and Customer Dissatisfaction
-- Priority
-- Conflicts
-- Supporting Materials
-- History
-- 16.7 Assembling the Specification
-- 16.8 Automated Requirements Tools
-- 16.9 Functional Requirements
-- 16.10 Non-functional Requirements
-- 16.11 Project Issues
-- 16.12 Summary
+  *in which we turn the requirements into communicable form*
+  - 16.1 Formality Guide
+  - 16.2 Turning Potential Requirements into Written Requirements
+  - 16.3 Knowledge Versus Specification
+  - 16.4 The Volere Requirements Specification Template
+    - 16.4.1 Template Table of Contents
+    - 16.4.2 Template Divisions
+  - 16.5 Discovering Atomic Requirements
+    - 16.5.1 Snow Cards
+  - 16.6 Attributes of Atomic Requirements
+    - 16.6.1 Requirement Number
+    - 16.6.2 Requirement Type
+    - 16.6.3 Event/BUC/PUC #
+    - 16.6.4 Description
+    - 16.6.5 Rationale
+    - 16.6.6 Originator
+    - 16.6.7 Fit Criterion
+    - 16.6.8 Customer Satisfaction and Customer Dissatisfaction
+    - 16.6.9 Priority
+    - 16.6.10 Conflicts
+    - 16.6.11 Supporting Materials
+    - 16.6.12 History
+  - 16.7 Assembling the Specification
+  - 16.8 Automated Requirements Tools
+  - 16.9 Functional Requirements
+  - 16.10 Non-functional Requirements
+  - 16.11 Project Issues
+  - 16.12 Summary
 - 17 Requirements Completeness
-  in which we decide whether our specification is complete, and set the priorities of the requirements
-- 17.1 Formality Guide
-- 17.2 Reviewing the Specification
-- 17.3 Inspections
-- 17.4 Find Missing Requirements
-- 17.5 Have All Business Use Cases Been Discovered?
-- 1. Define the Scope
-- 2. Identify Business Events and Non-events
-- Non-events
-- 3. Model the Business Use Case
-- 4. Define the Business Data
-- 5. CRUD Check
-- 6. Check for Custodial Processes
-- Repeat Until Done
-- 17.6 Prioritizing the Requirements
-- Prioritization Factors
-- When to Prioritize
-- Requirement Priority Grading
-- Prioritization Spreadsheet
-- 17.7 Conflicting Requirements
-- 17.8 Ambiguous Specifications
-- 17.9 Risk Assessment
-- Project Drivers
-- Project Constraints
-- Functional Requirements
-- 17.10 Measure the Required Cost
-- 17.11 Summary
+  *in which we decide whether our specification is complete, and set the priorities of the requirements*
+  - 17.1 Formality Guide
+  - 17.2 Reviewing the Specification
+  - 17.3 Inspections
+  - 17.4 Find Missing Requirements
+  - 17.5 Have All Business Use Cases Been Discovered?
+    - 17.5.1 1. Define the Scope
+    - 17.5.2 2. Identify Business Events and Non-events
+    - 17.5.3 Non-events
+    - 17.5.4 3. Model the Business Use Case
+    - 17.5.5 4. Define the Business Data
+    - 17.5.6 5. CRUD Check
+    - 17.5.7 6. Check for Custodial Processes
+    - 17.5.8 Repeat Until Done
+  - 17.6 Prioritizing the Requirements
+    - 17.6.1 Prioritization Factors
+    - 17.6.2 When to Prioritize
+    - 17.6.3 Requirement Priority Grading
+    - 17.6.4 Prioritization Spreadsheet
+  - 17.7 Conflicting Requirements
+  - 17.8 Ambiguous Specifications
+  - 17.9 Risk Assessment
+    - 17.9.1 Project Drivers
+    - 17.9.2 Project Constraints
+    - 17.9.3 Functional Requirements
+  - 17.10 Measure the Required Cost
+  - 17.11 Summary
+- Appendix A Volere Requirements Specification Template
+  *a guide for writing a rigorous and complete requirements specification*
+  - A.1 Contents
+    - A.1.1 Project Drivers
+    - A.1.2 Project Constraints
+    - A.1.3 Functional Requirements
+    - A.1.4 Non-functional Requirements
+    - A.1.5 Project Issues
+  - A.2 Use of This Template
+  - A.3 Volere
+  - A.4 Requirements Types
+  - A.5 Testing Requirements
+  - A.6 Atomic Requirements Shell
+  - A.7 1. The Purpose of the Project
+    - A.7.1 1a. The User Business or Background of the Project Effort
+    - A.7.2 1b. Goals of the Project
+  - A.8 2. The Stakeholders
+    - A.8.1 2a. The Client
+    - A.8.2 2b. The Customer
+    - A.8.3 2c. Other Stakeholders
+    - A.8.4 2d. The Hands-on Users of the Product
+    - A.8.5 2e. Personas
+    - A.8.6 2f. Priorities Assigned to Users
+    - A.8.7 2g. User Participation
+    - A.8.8 2h. Maintenance Users and Service Technicians
+  - A.9 3. Mandated Constraints
+    - A.9.1 3a. Solution Constraints
+    - A.9.2 3b. Implementation Environment of the Current System
+    - A.9.3 3c. Partner or Collaborative Applications
+    - A.9.4 3d. Off-the-Shelf Software
+    - A.9.5 3e. Anticipated Workplace Environment
+    - A.9.6 3f. Schedule Constraints
+    - A.9.7 3g. Budget Constraints
+    - A.9.8 3h. Enterprise Constraints
+  - A.10 4. Naming Conventions and Terminology
+    - A.10.1 4a. Definitions of All Terms, Including Acronyms, Used by Stakeholders Involved in the Project
+  - A.11 5. Relevant Facts and Assumptions
+    - A.11.1 5a. Relevant Facts
+    - A.11.2 5b. Business Rules
+    - A.11.3 5c. Assumptions
+  - A.12 6. The Scope of the Work
+    - A.12.1 6a. The Current Situation
+    - A.12.2 6b. The Context of the Work
+    - A.12.3 6c. Work Partitioning
+    - A.12.4 6d. Specifying a Business Use Case
+  - A.13 7. Business Data Model and Data Dictionary
+    - A.13.1 7a. Data Model
+    - A.13.2 7b. Data Dictionary
+  - A.14 8. The Scope of the Product
+    - A.14.1 8a. Product Boundary
+    - A.14.2 8b. Product Use Case Table
+    - A.14.3 8c. Individual Product Use Cases
+  - A.15 9. Functional and Data Requirements
+    - A.15.1 9a. Functional Requirements
+  - A.16 Non-functional Requirements
+  - A.17 10. Look and Feel Requirements
+    - A.17.1 10a. Appearance Requirements
+    - A.17.2 10b. Style Requirements
+  - A.18 11. Usability and Humanity Requirements
+    - A.18.1 11a. Ease of Use Requirements
+    - A.18.2 11b. Personalization and Internationalization Requirements
+    - A.18.3 11c. Learning Requirements
+    - A.18.4 11d. Understandability and Politeness Requirements
+    - A.18.5 11e. Accessibility Requirements
+  - A.19 12. Performance Requirements
+    - A.19.1 12a. Speed and Latency Requirements
+    - A.19.2 12b. Safety-Critical Requirements
+    - A.19.3 12c. Precision or Accuracy Requirements
+    - A.19.4 12d. Reliability and Availability Requirements
+    - A.19.5 12e. Robustness or Fault-Tolerance Requirements
+    - A.19.6 12f. Capacity Requirements
+    - A.19.7 12g. Scalability or Extensibility Requirements
+    - A.19.8 12h. Longevity Requirements
+  - A.20 13. Operational and Environmental Requirements
+    - A.20.1 13a. Expected Physical Environment
+    - A.20.2 13b. Requirements for Interfacing with Adjacent Systems
+    - A.20.3 13c. Productization Requirements
+    - A.20.4 13d. Release Requirements
+  - A.21 14. Maintainability and Support Requirements
+    - A.21.1 14a. Maintenance Requirements
+    - A.21.2 14b. Supportability Requirements
+    - A.21.3 14c. Adaptability Requirements
+  - A.22 15. Security Requirements
+    - A.22.1 15a. Access Requirements
+    - A.22.2 15b. Integrity Requirements
+    - A.22.3 15c. Privacy Requirements
+    - A.22.4 15d. Audit Requirements
+    - A.22.5 15e. Immunity Requirements
+  - A.23 16. Cultural Requirements
+    - A.23.1 16a. Cultural Requirements
+  - A.24 17. Legal Requirements
+    - A.24.1 17a. Compliance Requirements
+    - A.24.2 17b. Standards Requirements
+  - A.25 Project Issues
+  - A.26 18. Open Issues
+  - A.27 19. Off-the-Shelf Solutions
+    - A.27.1 19a. Ready-Made Products
+    - A.27.2 19b. Reusable Components
+    - A.27.3 19c. Products That Can Be Copied
+  - A.28 20. New Problems
+    - A.28.1 20a. Effects on the Current Environment
+    - A.28.2 20b. Effects on the Installed Systems
+    - A.28.3 20c. Potential User Problems
+    - A.28.4 20d. Limitations in the Anticipated Implementation Environment That May Inhibit the New Product
+    - A.28.5 20e. Follow-Up Problems
+  - A.29 21. Tasks
+    - A.29.1 21a. Project Planning
+    - A.29.2 21b. Planning of the Development Phases
+  - A.30 22. Migration to the New Product
+    - A.30.1 22a. Requirements for Migration to the New Product
+    - A.30.2 22b. Data That Must Be Modified or Translated for the New System
+  - A.31 23. Risks
+  - A.32 24. Costs
+  - A.33 25. User Documentation and Training
+    - A.33.1 25a. User Documentation Requirements
+    - A.33.2 25b. Training Requirements
+  - A.34 26. Waiting Room
+  - A.35 27. Ideas for Solutions
+- Appendix B Stakeholder Management Templates
+  - B.1 Stakeholder Map
+  - B.2 Stakeholder Template
+- Appendix C Function Point Counting: A Simplified Introduction
+  *in which we look at a way to accurately measure the size or functionality of the work area, with a view toward using the measurement to estimate the requirements effort*
+  - C.1 Measuring the Work
+  - C.2 A Quick Primer on Counting Function Points
+    - C.2.1 Scope of the Work
+    - C.2.2 Data Stored by the Work
+    - C.2.3 Business Use Cases
+  - C.3 Counting Function Points for Business Use Cases
+    - C.3.1 Counting Input Business Use Cases
+    - C.3.2 Counting Output Business Use Cases
+    - C.3.3 Counting Time-Triggered Business Use Cases
+  - C.4 Counting the Stored Data
+    - C.4.1 Internal Stored Data
+    - C.4.2 Externally Stored Data
+  - C.5 Adjust for What You Don’t Know
+  - C.6 Now That I Have Counted Function Points, What’s Next?
+- Appendix D Volere Requirements Knowledge Model
+  - D.1 Definitions of Requirements Knowledge Classes and Associations
+    - D.1.1 Knowledge Classes
+    - D.1.2 Associations
+  - D.2 Knowledge Model Annotated with Template Section Numbers
+- Glossary
+- Bibliography
+- Index

@@ -164,7 +164,7 @@ Once people have a better understanding of the real meaning of their requirement
 
 After all that truth, what are these requirements that we keep talking about? Simply put, a requirement is something the product must do to support its owner’s business, or a quality it must have to make it acceptable and attractive to the owner. A requirement exists either because the type of product demands certain functions and qualities, or because the client justifiably asks for that requirement to be part of the delivered product.
 
-## Functional Requirements
+## 1.12.1 Functional Requirements
 
 A functional requirement describes an action that the product must take if it is to be useful to its operator—they arise from the work that your stakeholders need to do. Almost any action (calculate, inspect, publish, or most other active verbs) can be a functional requirement.
 
@@ -174,7 +174,7 @@ A functional requirement describes an action that the product must take if it is
 
 This requirement is one of the things that the product must do if it is to be useful within the context of its owner’s business. You can deduce that owner in this case is an organization that is responsible for maintaining roads safely, and that does so by dispatching trucks to spread de-icing material on roads where ice is about to form.
 
-## Non-functional Requirements
+## 1.12.2 Non-functional Requirements
 
 Non-functional requirements are properties, or qualities, that the product must have if it is to be acceptable to its owner and operator. In some cases, non-functional requirements—these specify such properties as performance, look and feel, usability, security, and legal attributes—are critical to the product’s success, as in the following case:
 
@@ -192,7 +192,7 @@ Sometimes they make the product usable:
 
 Non-functional requirements might at first seem vague or incomplete. Later in this book we will look at how to give them a fit criterion to make them measurable and thus testable.
 
-## Constraints
+## 1.12.3 Constraints
 
 Constraints are global requirements. They can be limitations on the project itself or restrictions on the eventual design of the product. For example, this is a project constraint:
 
