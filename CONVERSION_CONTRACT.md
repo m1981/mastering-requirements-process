@@ -41,6 +41,12 @@ mastering-requirements-process/
 - `README.md` briefly explains the folder layout and how to navigate the book.
 - Preserve meaningful original headings and their hierarchy. Use plain Markdown headings, paragraphs, lists, block quotes, and tables as appropriate, with minimal additional styling.
 
+## Paragraph references
+
+- Give each content paragraph a visible reference prefix so passages are easy to locate and cite. Use `[section-id-P001]`, with a three-digit counter that restarts at each heading. For example, paragraphs under section `1.12.1` are `[1.12.1-P001]`, `[1.12.1-P002]`, and so on.
+- Paragraphs before the first numbered section use the chapter identifier, such as `[1-P001]`.
+- Apply paragraph references to prose, quotations, list items, image blocks, and captions. Keep the paragraph text and reading order intact.
+
 ## Images
 
 - Extract images from the Word file into `img/` as separate files. Use stable numbered names such as `image001.jpeg` where an original filename is not meaningful.
