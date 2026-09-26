@@ -272,7 +272,7 @@
     - 11.14.5 The Client
   - 11.15 Don’t Write a Solution
   - 11.16 Summary
-- 12 Fit Criteria and Rationale
+- [12 Fit Criteria and Rationale](chapters/12-fit-criteria-and-rationale.md)
   *in which we show how measuring requirements makes them unambiguous, understandable, communicable, and testable*
   - 12.1 Formality Guide
   - 12.2 Why Does Fit Need a Criterion?
@@ -302,7 +302,7 @@
   - 12.10 Fit Criterion for Project Purpose
   - 12.11 Fit Criteria for Solution Constraints
   - 12.12 Summary
-- 13 The Quality Gateway
+- [13 The Quality Gateway](chapters/13-the-quality-gateway.md)
   *in which we prevent unsuitable requirements from becoming part of the specification*
   - 13.1 Formality Guide
   - 13.2 Requirements Quality
@@ -322,7 +322,7 @@
   - 13.13 Implementing the Quality Gateway
     - 13.13.1 Alternative Quality Gateways
   - 13.14 Summary
-- 14 Requirements and Iterative Development
+- [14 Requirements and Iterative Development](chapters/14-requirements-and-iterative-development.md)
   *in which we look at how to discover and implement requirements in an iterative development environment*
   - 14.1 The Need for Iterative Development
   - 14.2 An Iterative Requirements Process
