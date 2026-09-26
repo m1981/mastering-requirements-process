@@ -182,7 +182,7 @@
   - 8.11 Document Your Design Decisions
   - 8.12 Product Use Case Scenarios
   - 8.13 Putting It All Together
-- 9 Strategies for Today’s Business Analyst
+- [9 Strategies for Today’s Business Analyst](chapters/09-strategies-for-todays-business-analyst.md)
   *in which we consider strategies for the business analyst to guide requirements discovery in today’s changing environments*
   - 9.1 Balancing Knowledge, Activities, and People
   - 9.2 Common Project Requirements Profiles
@@ -220,7 +220,7 @@
     - 9.8.7 Systemic Thinking and the Business Analyst
     - 9.8.8 The Business Analyst as Visualizer
   - 9.9 Summary
-- 10 Functional Requirements
+- [10 Functional Requirements](chapters/10-functional-requirements.md)
   *in which we look at those requirements that cause the product to do something*
   - 10.1 Formality Guide
   - 10.2 Functional Requirements
@@ -241,7 +241,7 @@
     - 10.12.3 Business Process Models
   - 10.13 Requirements for COTS
   - 10.14 Summary
-- 11 Non-functional Requirements
+- [11 Non-functional Requirements](chapters/11-non-functional-requirements.md)
   *in which we look at the requirements that specify how well your product does what it does*
   - 11.1 An Introduction to Non-functional Requirements
   - 11.2 Formality Guide
