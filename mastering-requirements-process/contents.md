@@ -340,7 +340,7 @@
     - 14.5.2 Analytical and Communication Knowledge
     - 14.5.3 Technical Knowledge
   - 14.6 Summary
-- 15 Reusing Requirements
+- [15 Reusing Requirements](chapters/15-reusing-requirements.md)
   *in which we look for requirements that have already been written and explore ways to make use of them*
   - 15.1 What Is Reusing Requirements?
   - 15.2 Sources of Reusable Requirements
@@ -355,7 +355,7 @@
     - 15.5.2 Patterns Across Domains
   - 15.6 Domain Analysis
   - 15.7 Summary
-- 16 Communicating the Requirements
+- [16 Communicating the Requirements](chapters/16-communicating-the-requirements.md)
   *in which we turn the requirements into communicable form*
   - 16.1 Formality Guide
   - 16.2 Turning Potential Requirements into Written Requirements
@@ -384,7 +384,7 @@
   - 16.10 Non-functional Requirements
   - 16.11 Project Issues
   - 16.12 Summary
-- 17 Requirements Completeness
+- [17 Requirements Completeness](chapters/17-requirements-completeness.md)
   *in which we decide whether our specification is complete, and set the priorities of the requirements*
   - 17.1 Formality Guide
   - 17.2 Reviewing the Specification
