@@ -530,7 +530,7 @@
     - A.33.2 25b. Training Requirements
   - A.34 26. Waiting Room
   - A.35 27. Ideas for Solutions
-- Appendix B Stakeholder Management Templates
+- [Appendix B Stakeholder Management Templates](appendices/appendix-b-stakeholder-management-templates.md)
   - B.1 Stakeholder Map
   - B.2 Stakeholder Template
 - Appendix C Function Point Counting: A Simplified Introduction
