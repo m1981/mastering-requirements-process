@@ -412,7 +412,7 @@
     - 17.9.3 Functional Requirements
   - 17.10 Measure the Required Cost
   - 17.11 Summary
-- Appendix A Volere Requirements Specification Template
+`- [Appendix A Volere Requirements Specification Template](appendices/appendix-a-volere-requirements-specification-template.md)
   *a guide for writing a rigorous and complete requirements specification*
   - A.1 Contents
     - A.1.1 Project Drivers
