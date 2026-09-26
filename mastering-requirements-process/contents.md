@@ -143,7 +143,7 @@
   - 6.8 Misuse Cases and Negative Scenarios
   - 6.9 Scenario Template
   - 6.10 Summary
-- 7 Understanding the Real Problem
+- [7 Understanding the Real Problem](chapters/07-understanding-the-real-problem.md)
   *in which we “think above the line” to find the true essence of the business, and so deliver the right product—one that solves the right problem*
   - 7.1 Formality Guide
   - 7.2 The Brown Cow Model: Thinking Above the Line
@@ -160,7 +160,7 @@
   - 7.10 Innovation Workshops
   - 7.11 Brainstorming
   - 7.12 Back to the Future
-- 8 Starting the Solution
+- [8 Starting the Solution](chapters/08-starting-the-solution.md)
   *in which we bring the essence of the business into the technological world of the implementation*
   - 8.1 Iterative Development
   - 8.2 Essential Business
