@@ -533,7 +533,7 @@
 - [Appendix B Stakeholder Management Templates](appendices/appendix-b-stakeholder-management-templates.md)
   - B.1 Stakeholder Map
   - B.2 Stakeholder Template
-- Appendix C Function Point Counting: A Simplified Introduction
+- [Appendix C Function Point Counting: A Simplified Introduction](appendices/appendix-c-function-point-counting-a-simplified-introduction.md)
   *in which we look at a way to accurately measure the size or functionality of the work area, with a view toward using the measurement to estimate the requirements effort*
   - C.1 Measuring the Work
   - C.2 A Quick Primer on Counting Function Points
