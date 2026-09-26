@@ -41,7 +41,7 @@
   - 2.16 Your Own Requirements Process
   - 2.17 Formality Guide
   - 2.18 The Rest of This Book
-- 3 Scoping the Business Problem
+- [3 Scoping the Business Problem](chapters/03-scoping-the-business-problem.md)
   *in which we establish a definition of the business area to be changed, thereby ensuring that the project team has a clear vision of what their project is meant to achieve*
   - 3.1 Project Blastoff
   - 3.2 Formality Guide
@@ -84,7 +84,7 @@
   - 3.14 To Go or Not to Go
   - 3.15 Blastoff Meetings
   - 3.16 Summary
-- 4 Business Use Cases
+- [4 Business Use Cases](chapters/04-business-use-cases.md)
   *in which we discuss a fail-safe way of partitioning the work and so smooth the way for your requirements investigation*
   - 4.1 Understanding the Work
   - 4.2 Formality Guide
