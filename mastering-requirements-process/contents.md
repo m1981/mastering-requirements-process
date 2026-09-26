@@ -101,7 +101,7 @@
   - 4.9 Business Use Cases and Product Use Cases
     - 4.9.1 Actors
   - 4.10 Summary
-- 5 Investigating the Work
+- [5 Investigating the Work](chapters/05-investigating-the-work.md)
   *in which we come to an understanding of what the business is doing, and start to think about what it might like to do*
   - 5.1 Trawling the Business
   - 5.2 Formality Guide
@@ -131,7 +131,7 @@
   - 5.19 Family Therapy
   - 5.20 Choosing the Best Trawling Technique
   - 5.21 Finally . . .
-- 6 Scenarios
+- [6 Scenarios](chapters/06-scenarios.md)
   *in which we look at scenarios, and how the business analyst uses them to communicate with the stakeholders*
   - 6.1 Formality Guide
   - 6.2 Scenarios
